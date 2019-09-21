@@ -1,15 +1,9 @@
-//
-//  STV_201909_testTests.swift
-//  STV-201909-testTests
-//
-//  Created by STV-M025 on 2019/09/21.
-//  Copyright © 2019 STV-M025. All rights reserved.
-//
+//___FILEHEADER___
 
 import XCTest
-@testable import STV_201909_test
+@testable import ___VARIABLE_productName:identifier___
 
-class STV_201909_testTests: XCTestCase {
+class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

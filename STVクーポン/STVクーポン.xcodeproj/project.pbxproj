@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88C789902335AC7B003749A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7898F2335AC7B003749A9 /* AppDelegate.swift */; };
-		88C789922335AC7B003749A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789912335AC7B003749A9 /* ViewController.swift */; };
-		88C789952335AC7B003749A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C789932335AC7B003749A9 /* Main.storyboard */; };
-		88C789972335AC7C003749A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C789962335AC7C003749A9 /* Assets.xcassets */; };
-		88C7899A2335AC7C003749A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C789982335AC7C003749A9 /* LaunchScreen.storyboard */; };
-		88C789A52335AC7D003749A9 /* STV_201909_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789A42335AC7D003749A9 /* STV_201909_testTests.swift */; };
-		88C789B02335AC7D003749A9 /* STV_201909_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789AF2335AC7D003749A9 /* STV_201909_testUITests.swift */; };
+		88C789CA2335AE23003749A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789C92335AE23003749A9 /* AppDelegate.swift */; };
+		88C789CC2335AE23003749A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789CB2335AE23003749A9 /* ViewController.swift */; };
+		88C789CF2335AE23003749A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C789CD2335AE23003749A9 /* Main.storyboard */; };
+		88C789D12335AE24003749A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C789D02335AE24003749A9 /* Assets.xcassets */; };
+		88C789D42335AE24003749A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C789D22335AE24003749A9 /* LaunchScreen.storyboard */; };
+		88C789DF2335AE24003749A9 /* STV_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789DE2335AE24003749A9 /* STV_____Tests.swift */; };
+		88C789EA2335AE24003749A9 /* STV_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789E92335AE24003749A9 /* STV_____UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		88C789A12335AC7D003749A9 /* PBXContainerItemProxy */ = {
+		88C789DB2335AE24003749A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 88C789842335AC7B003749A9 /* Project object */;
+			containerPortal = 88C789BE2335AE23003749A9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88C7898B2335AC7B003749A9;
-			remoteInfo = "STV-201909-test";
+			remoteGlobalIDString = 88C789C52335AE23003749A9;
+			remoteInfo = "STVクーポン";
 		};
-		88C789AC2335AC7D003749A9 /* PBXContainerItemProxy */ = {
+		88C789E62335AE24003749A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 88C789842335AC7B003749A9 /* Project object */;
+			containerPortal = 88C789BE2335AE23003749A9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88C7898B2335AC7B003749A9;
-			remoteInfo = "STV-201909-test";
+			remoteGlobalIDString = 88C789C52335AE23003749A9;
+			remoteInfo = "STVクーポン";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88C7898C2335AC7B003749A9 /* STV-201909-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STV-201909-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88C7898F2335AC7B003749A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88C789912335AC7B003749A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88C789942335AC7B003749A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88C789962335AC7C003749A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88C789992335AC7C003749A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88C7899B2335AC7C003749A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88C789A02335AC7D003749A9 /* STV-201909-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STV-201909-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88C789A42335AC7D003749A9 /* STV_201909_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STV_201909_testTests.swift; sourceTree = "<group>"; };
-		88C789A62335AC7D003749A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88C789AB2335AC7D003749A9 /* STV-201909-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STV-201909-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88C789AF2335AC7D003749A9 /* STV_201909_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STV_201909_testUITests.swift; sourceTree = "<group>"; };
-		88C789B12335AC7D003749A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C789C62335AE23003749A9 /* STVクーポン.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STVクーポン.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C789C92335AE23003749A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88C789CB2335AE23003749A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88C789CE2335AE23003749A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C789D02335AE24003749A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88C789D32335AE24003749A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88C789D52335AE24003749A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C789DA2335AE24003749A9 /* STVクーポンTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STVクーポンTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C789DE2335AE24003749A9 /* STV_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "STV_____Tests.swift"; sourceTree = "<group>"; };
+		88C789E02335AE24003749A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C789E52335AE24003749A9 /* STVクーポンUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STVクーポンUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C789E92335AE24003749A9 /* STV_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "STV_____UITests.swift"; sourceTree = "<group>"; };
+		88C789EB2335AE24003749A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		88C789892335AC7B003749A9 /* Frameworks */ = {
+		88C789C32335AE23003749A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88C7899D2335AC7D003749A9 /* Frameworks */ = {
+		88C789D72335AE24003749A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88C789A82335AC7D003749A9 /* Frameworks */ = {
+		88C789E22335AE24003749A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		88C789832335AC7B003749A9 = {
+		88C789BD2335AE23003749A9 = {
 			isa = PBXGroup;
 			children = (
-				88C7898E2335AC7B003749A9 /* STV-201909-test */,
-				88C789A32335AC7D003749A9 /* STV-201909-testTests */,
-				88C789AE2335AC7D003749A9 /* STV-201909-testUITests */,
-				88C7898D2335AC7B003749A9 /* Products */,
+				88C789C82335AE23003749A9 /* STVクーポン */,
+				88C789DD2335AE24003749A9 /* STVクーポンTests */,
+				88C789E82335AE24003749A9 /* STVクーポンUITests */,
+				88C789C72335AE23003749A9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		88C7898D2335AC7B003749A9 /* Products */ = {
+		88C789C72335AE23003749A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88C7898C2335AC7B003749A9 /* STV-201909-test.app */,
-				88C789A02335AC7D003749A9 /* STV-201909-testTests.xctest */,
-				88C789AB2335AC7D003749A9 /* STV-201909-testUITests.xctest */,
+				88C789C62335AE23003749A9 /* STVクーポン.app */,
+				88C789DA2335AE24003749A9 /* STVクーポンTests.xctest */,
+				88C789E52335AE24003749A9 /* STVクーポンUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88C7898E2335AC7B003749A9 /* STV-201909-test */ = {
+		88C789C82335AE23003749A9 /* STVクーポン */ = {
 			isa = PBXGroup;
 			children = (
-				88C7898F2335AC7B003749A9 /* AppDelegate.swift */,
-				88C789912335AC7B003749A9 /* ViewController.swift */,
-				88C789932335AC7B003749A9 /* Main.storyboard */,
-				88C789962335AC7C003749A9 /* Assets.xcassets */,
-				88C789982335AC7C003749A9 /* LaunchScreen.storyboard */,
-				88C7899B2335AC7C003749A9 /* Info.plist */,
+				88C789C92335AE23003749A9 /* AppDelegate.swift */,
+				88C789CB2335AE23003749A9 /* ViewController.swift */,
+				88C789CD2335AE23003749A9 /* Main.storyboard */,
+				88C789D02335AE24003749A9 /* Assets.xcassets */,
+				88C789D22335AE24003749A9 /* LaunchScreen.storyboard */,
+				88C789D52335AE24003749A9 /* Info.plist */,
 			);
-			path = "STV-201909-test";
+			path = "STVクーポン";
 			sourceTree = "<group>";
 		};
-		88C789A32335AC7D003749A9 /* STV-201909-testTests */ = {
+		88C789DD2335AE24003749A9 /* STVクーポンTests */ = {
 			isa = PBXGroup;
 			children = (
-				88C789A42335AC7D003749A9 /* STV_201909_testTests.swift */,
-				88C789A62335AC7D003749A9 /* Info.plist */,
+				88C789DE2335AE24003749A9 /* STV_____Tests.swift */,
+				88C789E02335AE24003749A9 /* Info.plist */,
 			);
-			path = "STV-201909-testTests";
+			path = "STVクーポンTests";
 			sourceTree = "<group>";
 		};
-		88C789AE2335AC7D003749A9 /* STV-201909-testUITests */ = {
+		88C789E82335AE24003749A9 /* STVクーポンUITests */ = {
 			isa = PBXGroup;
 			children = (
-				88C789AF2335AC7D003749A9 /* STV_201909_testUITests.swift */,
-				88C789B12335AC7D003749A9 /* Info.plist */,
+				88C789E92335AE24003749A9 /* STV_____UITests.swift */,
+				88C789EB2335AE24003749A9 /* Info.plist */,
 			);
-			path = "STV-201909-testUITests";
+			path = "STVクーポンUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88C7898B2335AC7B003749A9 /* STV-201909-test */ = {
+		88C789C52335AE23003749A9 /* STVクーポン */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88C789B42335AC7D003749A9 /* Build configuration list for PBXNativeTarget "STV-201909-test" */;
+			buildConfigurationList = 88C789EE2335AE24003749A9 /* Build configuration list for PBXNativeTarget "STVクーポン" */;
 			buildPhases = (
-				88C789882335AC7B003749A9 /* Sources */,
-				88C789892335AC7B003749A9 /* Frameworks */,
-				88C7898A2335AC7B003749A9 /* Resources */,
+				88C789C22335AE23003749A9 /* Sources */,
+				88C789C32335AE23003749A9 /* Frameworks */,
+				88C789C42335AE23003749A9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "STV-201909-test";
-			productName = "STV-201909-test";
-			productReference = 88C7898C2335AC7B003749A9 /* STV-201909-test.app */;
+			name = "STVクーポン";
+			productName = "STVクーポン";
+			productReference = 88C789C62335AE23003749A9 /* STVクーポン.app */;
 			productType = "com.apple.product-type.application";
 		};
-		88C7899F2335AC7D003749A9 /* STV-201909-testTests */ = {
+		88C789D92335AE24003749A9 /* STVクーポンTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88C789B72335AC7D003749A9 /* Build configuration list for PBXNativeTarget "STV-201909-testTests" */;
+			buildConfigurationList = 88C789F12335AE24003749A9 /* Build configuration list for PBXNativeTarget "STVクーポンTests" */;
 			buildPhases = (
-				88C7899C2335AC7D003749A9 /* Sources */,
-				88C7899D2335AC7D003749A9 /* Frameworks */,
-				88C7899E2335AC7D003749A9 /* Resources */,
+				88C789D62335AE24003749A9 /* Sources */,
+				88C789D72335AE24003749A9 /* Frameworks */,
+				88C789D82335AE24003749A9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88C789A22335AC7D003749A9 /* PBXTargetDependency */,
+				88C789DC2335AE24003749A9 /* PBXTargetDependency */,
 			);
-			name = "STV-201909-testTests";
-			productName = "STV-201909-testTests";
-			productReference = 88C789A02335AC7D003749A9 /* STV-201909-testTests.xctest */;
+			name = "STVクーポンTests";
+			productName = "STVクーポンTests";
+			productReference = 88C789DA2335AE24003749A9 /* STVクーポンTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		88C789AA2335AC7D003749A9 /* STV-201909-testUITests */ = {
+		88C789E42335AE24003749A9 /* STVクーポンUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88C789BA2335AC7D003749A9 /* Build configuration list for PBXNativeTarget "STV-201909-testUITests" */;
+			buildConfigurationList = 88C789F42335AE24003749A9 /* Build configuration list for PBXNativeTarget "STVクーポンUITests" */;
 			buildPhases = (
-				88C789A72335AC7D003749A9 /* Sources */,
-				88C789A82335AC7D003749A9 /* Frameworks */,
-				88C789A92335AC7D003749A9 /* Resources */,
+				88C789E12335AE24003749A9 /* Sources */,
+				88C789E22335AE24003749A9 /* Frameworks */,
+				88C789E32335AE24003749A9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88C789AD2335AC7D003749A9 /* PBXTargetDependency */,
+				88C789E72335AE24003749A9 /* PBXTargetDependency */,
 			);
-			name = "STV-201909-testUITests";
-			productName = "STV-201909-testUITests";
-			productReference = 88C789AB2335AC7D003749A9 /* STV-201909-testUITests.xctest */;
+			name = "STVクーポンUITests";
+			productName = "STVクーポンUITests";
+			productReference = 88C789E52335AE24003749A9 /* STVクーポンUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		88C789842335AC7B003749A9 /* Project object */ = {
+		88C789BE2335AE23003749A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "STV-M025";
 				TargetAttributes = {
-					88C7898B2335AC7B003749A9 = {
+					88C789C52335AE23003749A9 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					88C7899F2335AC7D003749A9 = {
+					88C789D92335AE24003749A9 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 88C7898B2335AC7B003749A9;
+						TestTargetID = 88C789C52335AE23003749A9;
 					};
-					88C789AA2335AC7D003749A9 = {
+					88C789E42335AE24003749A9 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 88C7898B2335AC7B003749A9;
+						TestTargetID = 88C789C52335AE23003749A9;
 					};
 				};
 			};
-			buildConfigurationList = 88C789872335AC7B003749A9 /* Build configuration list for PBXProject "STV-201909-test" */;
+			buildConfigurationList = 88C789C12335AE23003749A9 /* Build configuration list for PBXProject "STVクーポン" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 88C789832335AC7B003749A9;
-			productRefGroup = 88C7898D2335AC7B003749A9 /* Products */;
+			mainGroup = 88C789BD2335AE23003749A9;
+			productRefGroup = 88C789C72335AE23003749A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88C7898B2335AC7B003749A9 /* STV-201909-test */,
-				88C7899F2335AC7D003749A9 /* STV-201909-testTests */,
-				88C789AA2335AC7D003749A9 /* STV-201909-testUITests */,
+				88C789C52335AE23003749A9 /* STVクーポン */,
+				88C789D92335AE24003749A9 /* STVクーポンTests */,
+				88C789E42335AE24003749A9 /* STVクーポンUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		88C7898A2335AC7B003749A9 /* Resources */ = {
+		88C789C42335AE23003749A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C7899A2335AC7C003749A9 /* LaunchScreen.storyboard in Resources */,
-				88C789972335AC7C003749A9 /* Assets.xcassets in Resources */,
-				88C789952335AC7B003749A9 /* Main.storyboard in Resources */,
+				88C789D42335AE24003749A9 /* LaunchScreen.storyboard in Resources */,
+				88C789D12335AE24003749A9 /* Assets.xcassets in Resources */,
+				88C789CF2335AE23003749A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88C7899E2335AC7D003749A9 /* Resources */ = {
+		88C789D82335AE24003749A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88C789A92335AC7D003749A9 /* Resources */ = {
+		88C789E32335AE24003749A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88C789882335AC7B003749A9 /* Sources */ = {
+		88C789C22335AE23003749A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C789922335AC7B003749A9 /* ViewController.swift in Sources */,
-				88C789902335AC7B003749A9 /* AppDelegate.swift in Sources */,
+				88C789CC2335AE23003749A9 /* ViewController.swift in Sources */,
+				88C789CA2335AE23003749A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88C7899C2335AC7D003749A9 /* Sources */ = {
+		88C789D62335AE24003749A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C789A52335AC7D003749A9 /* STV_201909_testTests.swift in Sources */,
+				88C789DF2335AE24003749A9 /* STV_____Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88C789A72335AC7D003749A9 /* Sources */ = {
+		88C789E12335AE24003749A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C789B02335AC7D003749A9 /* STV_201909_testUITests.swift in Sources */,
+				88C789EA2335AE24003749A9 /* STV_____UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88C789A22335AC7D003749A9 /* PBXTargetDependency */ = {
+		88C789DC2335AE24003749A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 88C7898B2335AC7B003749A9 /* STV-201909-test */;
-			targetProxy = 88C789A12335AC7D003749A9 /* PBXContainerItemProxy */;
+			target = 88C789C52335AE23003749A9 /* STVクーポン */;
+			targetProxy = 88C789DB2335AE24003749A9 /* PBXContainerItemProxy */;
 		};
-		88C789AD2335AC7D003749A9 /* PBXTargetDependency */ = {
+		88C789E72335AE24003749A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 88C7898B2335AC7B003749A9 /* STV-201909-test */;
-			targetProxy = 88C789AC2335AC7D003749A9 /* PBXContainerItemProxy */;
+			target = 88C789C52335AE23003749A9 /* STVクーポン */;
+			targetProxy = 88C789E62335AE24003749A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88C789932335AC7B003749A9 /* Main.storyboard */ = {
+		88C789CD2335AE23003749A9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				88C789942335AC7B003749A9 /* Base */,
+				88C789CE2335AE23003749A9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		88C789982335AC7C003749A9 /* LaunchScreen.storyboard */ = {
+		88C789D22335AE24003749A9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				88C789992335AC7C003749A9 /* Base */,
+				88C789D32335AE24003749A9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		88C789B22335AC7D003749A9 /* Debug */ = {
+		88C789EC2335AE24003749A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		88C789B32335AC7D003749A9 /* Release */ = {
+		88C789ED2335AE24003749A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,164 +428,164 @@
 			};
 			name = Release;
 		};
-		88C789B52335AC7D003749A9 /* Debug */ = {
+		88C789EF2335AE24003749A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = "STV-201909-test/Info.plist";
+				INFOPLIST_FILE = "STVクーポン/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-201909-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		88C789B62335AC7D003749A9 /* Release */ = {
+		88C789F02335AE24003749A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = "STV-201909-test/Info.plist";
+				INFOPLIST_FILE = "STVクーポン/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-201909-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		88C789B82335AC7D003749A9 /* Debug */ = {
+		88C789F22335AE24003749A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = "STV-201909-testTests/Info.plist";
+				INFOPLIST_FILE = "STVクーポンTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-201909-testTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STV-201909-test.app/STV-201909-test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STVクーポン.app/STVクーポン";
 			};
 			name = Debug;
 		};
-		88C789B92335AC7D003749A9 /* Release */ = {
+		88C789F32335AE24003749A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = "STV-201909-testTests/Info.plist";
+				INFOPLIST_FILE = "STVクーポンTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-201909-testTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STV-201909-test.app/STV-201909-test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STVクーポン.app/STVクーポン";
 			};
 			name = Release;
 		};
-		88C789BB2335AC7D003749A9 /* Debug */ = {
+		88C789F52335AE24003749A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = "STV-201909-testUITests/Info.plist";
+				INFOPLIST_FILE = "STVクーポンUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-201909-testUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "STV-201909-test";
+				TEST_TARGET_NAME = "STVクーポン";
 			};
 			name = Debug;
 		};
-		88C789BC2335AC7D003749A9 /* Release */ = {
+		88C789F62335AE24003749A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = "STV-201909-testUITests/Info.plist";
+				INFOPLIST_FILE = "STVクーポンUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-201909-testUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.STV-----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "STV-201909-test";
+				TEST_TARGET_NAME = "STVクーポン";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88C789872335AC7B003749A9 /* Build configuration list for PBXProject "STV-201909-test" */ = {
+		88C789C12335AE23003749A9 /* Build configuration list for PBXProject "STVクーポン" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88C789B22335AC7D003749A9 /* Debug */,
-				88C789B32335AC7D003749A9 /* Release */,
+				88C789EC2335AE24003749A9 /* Debug */,
+				88C789ED2335AE24003749A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88C789B42335AC7D003749A9 /* Build configuration list for PBXNativeTarget "STV-201909-test" */ = {
+		88C789EE2335AE24003749A9 /* Build configuration list for PBXNativeTarget "STVクーポン" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88C789B52335AC7D003749A9 /* Debug */,
-				88C789B62335AC7D003749A9 /* Release */,
+				88C789EF2335AE24003749A9 /* Debug */,
+				88C789F02335AE24003749A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88C789B72335AC7D003749A9 /* Build configuration list for PBXNativeTarget "STV-201909-testTests" */ = {
+		88C789F12335AE24003749A9 /* Build configuration list for PBXNativeTarget "STVクーポンTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88C789B82335AC7D003749A9 /* Debug */,
-				88C789B92335AC7D003749A9 /* Release */,
+				88C789F22335AE24003749A9 /* Debug */,
+				88C789F32335AE24003749A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88C789BA2335AC7D003749A9 /* Build configuration list for PBXNativeTarget "STV-201909-testUITests" */ = {
+		88C789F42335AE24003749A9 /* Build configuration list for PBXNativeTarget "STVクーポンUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88C789BB2335AC7D003749A9 /* Debug */,
-				88C789BC2335AC7D003749A9 /* Release */,
+				88C789F52335AE24003749A9 /* Debug */,
+				88C789F62335AE24003749A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 88C789842335AC7B003749A9 /* Project object */;
+	rootObject = 88C789BE2335AE23003749A9 /* Project object */;
 }
