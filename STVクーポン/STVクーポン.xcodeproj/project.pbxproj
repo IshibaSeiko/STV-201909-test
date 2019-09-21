@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		88C789CA2335AE23003749A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789C92335AE23003749A9 /* AppDelegate.swift */; };
-		88C789CC2335AE23003749A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789CB2335AE23003749A9 /* ViewController.swift */; };
-		88C789CF2335AE23003749A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C789CD2335AE23003749A9 /* Main.storyboard */; };
+		88C789CC2335AE23003749A9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789CB2335AE23003749A9 /* ListViewController.swift */; };
+		88C789CF2335AE23003749A9 /* ListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C789CD2335AE23003749A9 /* ListViewController.storyboard */; };
 		88C789D12335AE24003749A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C789D02335AE24003749A9 /* Assets.xcassets */; };
 		88C789D42335AE24003749A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C789D22335AE24003749A9 /* LaunchScreen.storyboard */; };
 		88C789DF2335AE24003749A9 /* STV_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789DE2335AE24003749A9 /* STV_____Tests.swift */; };
 		88C789EA2335AE24003749A9 /* STV_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C789E92335AE24003749A9 /* STV_____UITests.swift */; };
+		88C789F92335B068003749A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88C789FB2335B068003749A9 /* Localizable.strings */; };
+		88C78A0B2335B5DE003749A9 /* CouponViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C78A092335B5DE003749A9 /* CouponViewCell.swift */; };
+		88C78A0C2335B5DE003749A9 /* CouponViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C78A0A2335B5DE003749A9 /* CouponViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,8 @@
 /* Begin PBXFileReference section */
 		88C789C62335AE23003749A9 /* STVクーポン.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STVクーポン.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C789C92335AE23003749A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88C789CB2335AE23003749A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88C789CE2335AE23003749A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C789CB2335AE23003749A9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		88C789CE2335AE23003749A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ListViewController.storyboard; sourceTree = "<group>"; };
 		88C789D02335AE24003749A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88C789D32335AE24003749A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88C789D52335AE24003749A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		88C789E52335AE24003749A9 /* STVクーポンUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STVクーポンUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C789E92335AE24003749A9 /* STV_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "STV_____UITests.swift"; sourceTree = "<group>"; };
 		88C789EB2335AE24003749A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C789FE2335B09A003749A9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		88C78A092335B5DE003749A9 /* CouponViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewCell.swift; sourceTree = "<group>"; };
+		88C78A0A2335B5DE003749A9 /* CouponViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				88C789C92335AE23003749A9 /* AppDelegate.swift */,
-				88C789CB2335AE23003749A9 /* ViewController.swift */,
-				88C789CD2335AE23003749A9 /* Main.storyboard */,
+				88C789CB2335AE23003749A9 /* ListViewController.swift */,
+				88C789CD2335AE23003749A9 /* ListViewController.storyboard */,
+				88C78A092335B5DE003749A9 /* CouponViewCell.swift */,
+				88C78A0A2335B5DE003749A9 /* CouponViewCell.xib */,
 				88C789D02335AE24003749A9 /* Assets.xcassets */,
 				88C789D22335AE24003749A9 /* LaunchScreen.storyboard */,
 				88C789D52335AE24003749A9 /* Info.plist */,
+				88C789FB2335B068003749A9 /* Localizable.strings */,
 			);
 			path = "STVクーポン";
 			sourceTree = "<group>";
@@ -209,8 +218,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ja,
 			);
 			mainGroup = 88C789BD2335AE23003749A9;
 			productRefGroup = 88C789C72335AE23003749A9 /* Products */;
@@ -230,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				88C789D42335AE24003749A9 /* LaunchScreen.storyboard in Resources */,
+				88C789F92335B068003749A9 /* Localizable.strings in Resources */,
 				88C789D12335AE24003749A9 /* Assets.xcassets in Resources */,
-				88C789CF2335AE23003749A9 /* Main.storyboard in Resources */,
+				88C789CF2335AE23003749A9 /* ListViewController.storyboard in Resources */,
+				88C78A0C2335B5DE003749A9 /* CouponViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C789CC2335AE23003749A9 /* ViewController.swift in Sources */,
+				88C789CC2335AE23003749A9 /* ListViewController.swift in Sources */,
 				88C789CA2335AE23003749A9 /* AppDelegate.swift in Sources */,
+				88C78A0B2335B5DE003749A9 /* CouponViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +305,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88C789CD2335AE23003749A9 /* Main.storyboard */ = {
+		88C789CD2335AE23003749A9 /* ListViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				88C789CE2335AE23003749A9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = ListViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		88C789D22335AE24003749A9 /* LaunchScreen.storyboard */ = {
@@ -309,6 +321,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		88C789FB2335B068003749A9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C789FE2335B09A003749A9 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -316,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
